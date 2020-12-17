@@ -23,7 +23,7 @@
     "url": "https://github.com/Lambourl/npm-test-lla/issues"
   },
   "homepage": "https://github.com/Lambourl/npm-test-lla#readme",
-  "main": "./out/extension.js",
+  "main": "./out/software.js",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",

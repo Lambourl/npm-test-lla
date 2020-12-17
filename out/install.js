@@ -79,7 +79,7 @@ function nxxmExists(nxxmPath) {
 }
 function getExtensionPath() {
     var pjson = require('../package.json');
-    return path.join(os.homedir());
+    return path.join(os.homedir(), 'nxxm_npm');
 }
 function getNxxmLatestUrl(callback) {
     return __awaiter(this, void 0, void 0, function* () {
